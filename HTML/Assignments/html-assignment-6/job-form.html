@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+
+<body>
+    <style>H1 {text-align: center; border-radius: 100px; border: 2px solid black;} .form-grid {width: auto;} .form-grid {color: rgb(4, 0, 255);} .name {color: rgb(255, 0, 0);} </style>
+    <H1 style="color: rgb(0, 51, 255);">Job Application Form</H1>
+
+    <form action="" method="post">
+        
+        <!-- Personal Information -->
+        <fieldset>
+            <legend>Personal Information</legend>
+            <div class="form-grid">
+                <label for="name" class="name">Full Name:</label><br>
+                <input type="text" id="name" placeholder="Muhammad Noman" required class="name" style="color: rgb(0, 172, 240);"><br>
+
+                <label for="email" style="color: rgb(255, 0, 0);">Email Address:</label><br>
+                <input type="email" id="email" required placeholder="name@gmail.com" style="color: rgb(0, 172, 240);"><br>
+
+                <label for="contact">Phone Number:</label><br>
+                <input type="number" id="contact" required placeholder="+92 309 777989"><br>
+
+                <label for="url">Website or Portfolio:</label><br>
+                <input type="url" id="url" placeholder="website.com.pk"><br>
+
+                <label for="dob">Date of Birth:</label><br>
+                <input type="date" id="dob" required>
+            </div>
+        </fieldset>
+
+        <!-- Job Details -->
+         <fieldset>
+            <legend>Job Details</legend>
+
+            <!-- Dropdown -->
+            <div class="form-row">
+                <label for="Job">Job Position</label>
+                <select name="Job" id="Job">
+                    <option value="">Frontend Developer</option>
+                    <option value="">Backend Developer</option>
+                    <option value="">UI/UX Designer</option>
+                    <option value="">QA Engineer</option>
+                </select>
+            </div>
+
+            <!-- Radio Buttons -->
+             <div class="form-row">
+                <label for="location">Preffered Work Location</label>
+                <div class="location">
+                    <label for="physical"><input type="radio" name="location" id="physical" value="On-site">On-site</label>
+                    <label for="hybrid"><input type="radio" name="location" id="hybrid" value="Hybrid">Hybrid</label>
+                    <label for="remote"><input type="radio" name="location" id="remote" value="Remote">Remote</label>
+                </div>
+             </div>
+
+             <!-- Checkboxes -->
+              <div class="form-row">
+                <label for="skills">Skills</label>
+                <div class="" id="skills">
+                    <label for="html"><input type="checkbox" name="skills" id="html">HTML</label>
+                    <label for="css"><input type="checkbox" name="skills" id="css">CSS</label>
+                    <label for="javascript"><input type="checkbox" name="skills" id="javascript">JavaScript</label>
+                    <label for="react"><input type="checkbox" name="skills" id="react">React</label>
+                    <label for="node.js"><input type="checkbox" name="skills" id="node.js">Node.js</label>
+                </div>
+              </div>
+
+              <!-- Resume -->
+              <label for="resume">Resume Upload:</label>
+              <input type="file" name="resume" id="resume"><br>
+
+              <label for="description">Write About Yourself:</label><br>
+              <textarea name="description" id="description"></textarea>
+         </fieldset>
+
+         <!-- Extra Section -->
+          <fieldset>
+            <legend>Extra Section</legend>
+            <div>
+                <label for="tech">Search Your Favorite Tech Stack:</label><br>
+                <input type="search" name="tech" id="tech" placeholder="React, Django, Node.js" required><br>
+
+                <label for="pass">Password</label><br>
+                <input type="password" name="pass" id="pass"><br>
+
+                <label for="confirm-pass">Confirm Password</label><br>
+                <input type="password" name="confirm-pass" id="confirm-pass"><br><br>
+
+                <input type="submit" value="Submit" style="width: 171.5px;">
+            </div>
+          </fieldset>
+    </form>
+</body>
+
+</html>
