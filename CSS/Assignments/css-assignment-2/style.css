@@ -1,0 +1,113 @@
+body {
+    background-color: lightskyblue;    
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    color: black;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+header {
+    height: fit-content;
+    width: 100%;
+    margin: auto;
+    background-color: #806BDC;
+    text-align: center;
+    border: 5px solid #878787 ;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.NavBar {
+    border-radius: 15px;
+}
+
+h1, h2 {
+    margin: 10px 0px;
+}
+
+#navbar-title {
+    color: white;
+    font-size: 25px;
+}
+
+.Items {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#item-table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    border: 5px solid #878787;
+}
+
+.Item-img {
+    height: 64px;
+}
+
+.Item-tag {
+    font-size: 14px;
+}
+
+.Item-tag:hover {
+    color: #806BDC;
+    cursor: pointer;
+}
+
+.Shopping-container {
+    background-color: lightgrey;
+    border: 5px solid lightcoral;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding-bottom: 30px;
+    border-radius: 25px;
+}
+
+#shopping-time-img {
+    margin-top: 30px;
+    border-radius: 40px;
+    border: 5px solid lightcoral;
+    width: 90vw;
+    height: 60vh;
+}
+
+.Sales-table {
+    width: 90vw;
+    margin: auto;
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 12px;
+    text-align: center;
+}
+
+.Sales-table-head {
+    background-color: #806BDC;
+}
+
+.Information {
+    width: 92vw;
+    margin: 20px;
+    text-align: justify;
+    font-size: 11px;
+    color: #878787;
+    list-style-position: inside;
+}
+
+footer {
+    height: 50px;
+    padding-top: 28px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
