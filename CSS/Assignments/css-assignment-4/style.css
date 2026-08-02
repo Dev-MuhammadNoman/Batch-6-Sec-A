@@ -1,0 +1,40 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 99vh;
+    align-content: center;
+    background-color: cornsilk;
+}
+
+table {
+    border-radius: 15px;
+    justify-self: center;
+    width: 80%;
+    height: 90vh;
+}
+
+tbody {
+    border-radius: 10px;
+    background-color: white;
+}
+
+thead {
+    background: #000;
+    color: white;
+    height: 7.5%;
+}
+
+tbody:nth-child(odd) {
+    background-color: lightgrey;
+}
+
+tbody:hover {
+  cursor: pointer;
+  background-color: grey;
+}
